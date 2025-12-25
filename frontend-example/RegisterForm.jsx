@@ -1,12 +1,6 @@
 import { useState } from 'react';
 import './RegisterForm.css';
 
-/**
- * Registration Form Component for Navidrome
- * 
- * This component handles user registration by calling the
- * navidrome-registration middleware API.
- */
 function RegisterForm() {
   const [formData, setFormData] = useState({
     username: '',
